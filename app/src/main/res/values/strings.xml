@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Drifters Manga</string>
+    <string name="library">Library</string>
+    <string name="updates">Updates</string>
+    <string name="history">History</string>
+    <string name="browse">Browse</string>
+    <string name="more">More</string>
+    <string name="search">Search</string>
+    <string name="filter">Filter</string>
+    <string name="sort">Sort</string>
+    <string name="categories">Categories</string>
+    <string name="downloads">Downloads</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+    <string name="reader_settings">Reader</string>
+    <string name="extensions">Extensions</string>
+    <string name="migrate">Migrate</string>
+    <string name="backup_restore">Backup &amp; Restore</string>
+</resources>
