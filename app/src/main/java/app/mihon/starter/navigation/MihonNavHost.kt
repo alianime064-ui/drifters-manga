@@ -23,6 +23,7 @@ import app.mihon.starter.library.LibraryScreen
 import app.mihon.starter.library.MangaDetailsScreen
 import app.mihon.starter.more.MoreScreen
 import app.mihon.starter.more.SettingsScreen
+import app.mihon.starter.extensions.ExtensionReposScreen
 import app.mihon.starter.reader.ReaderScreen
 import app.mihon.starter.updates.UpdatesScreen
 
@@ -111,7 +112,10 @@ fun MihonNavHost() {
                 SettingsScreen(onBack = { navController.popBackStack() })
             }
             composable(Routes.EXTENSIONS) {
-                ExtensionsPlaceholder(onBack = { navController.popBackStack() })
+                ExtensionReposScreen(onBack = { navController.popBackStack() })
+            }
+            // old placeholder disabled
+            // composableOld
             }
             composable(Routes.DOWNLOADS) {
                 DownloadsPlaceholder(onBack = { navController.popBackStack() })
